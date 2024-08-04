@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="24.1.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" Margins="0, 100, 14.583333, 100" PageWidth="850" PageHeight="1100" Version="24.1" DataMember="Customers" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="14.583333" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="27.29168" Padding="7,7,7,7,100">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRTable" Name="table1" TextAlignment="TopCenter" SizeF="750,25" LocationFloat="0,0" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,96" Borders="All">
+          <Rows>
+            <Item1 Ref="5" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="6" ControlType="XRTableCell" Name="tableCell1" Weight="1" Multiline="true" Text="tableCell1">
+                  <ExpressionBindings>
+                    <Item1 Ref="7" EventName="BeforePrint" PropertyName="Text" Expression="[CustomerID]" />
+                  </ExpressionBindings>
+                </Item1>
+                <Item2 Ref="8" ControlType="XRTableCell" Name="tableCell2" Weight="1" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="9" EventName="BeforePrint" PropertyName="Text" Expression="[CompanyName]" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="10" ControlType="XRTableCell" Name="tableCell3" Weight="1" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="11" EventName="BeforePrint" PropertyName="Text" Expression="[ContactName]" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="12" ControlType="XRTableCell" Name="tableCell4" Weight="1" Multiline="true" Text="tableCell4">
+                  <ExpressionBindings>
+                    <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="[Address]" />
+                  </ExpressionBindings>
+                </Item4>
+                <Item5 Ref="14" ControlType="XRTableCell" Name="tableCell5" Weight="1" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="[City]" />
+                  </ExpressionBindings>
+                </Item5>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="16" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+      <StylePriority Ref="17" UsePadding="false" />
+    </Item2>
+    <Item3 Ref="18" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item4 Ref="19" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="393">
+      <Controls>
+        <Item1 Ref="20" ControlType="XRLabel" Name="label1" Multiline="true" Text="Bon de Commande - Purchase Order" TextAlignment="TopCenter" SizeF="750,36.5416527" LocationFloat="0,143.291687" Font="Arial, 22pt, style=Bold" BackColor="Azure" Padding="2,2,0,0,100" Borders="Bottom" BorderWidth="3">
+          <StylePriority Ref="21" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="22" ControlType="XRLabel" Name="label2" Multiline="true" Text="Fournisseur/Supplier:" TextAlignment="TopLeft" SizeF="175.625,23.0000038" LocationFloat="10,197" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Transparent">
+          <StylePriority Ref="23" UseFont="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="24" ControlType="XRLabel" Name="label3" Multiline="true" Text="PRES-ON" TextAlignment="TopLeft" SizeF="98.3333359,23" LocationFloat="10,220" Font="Arial, 8pt" Padding="2,2,0,0,100" BorderColor="Transparent">
+          <StylePriority Ref="25" UseFont="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="26" ControlType="XRLabel" Name="label4" Multiline="true" Text="Dermolab Pharma Ltée&#xD;" TextAlignment="TopLeft" SizeF="206.25,23" LocationFloat="10.4166718,0" Font="Arial, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="28" ControlType="XRLabel" Name="label5" Multiline="true" Text="1421, rue Nobel" TextAlignment="TopLeft" SizeF="112.500015,22.9999962" LocationFloat="10.4166718,22.9999924" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="29" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="30" ControlType="XRLabel" Name="label6" Multiline="true" Text="Ste-Julie(QUEBEC, CANADA)&#xD;" TextAlignment="TopLeft" SizeF="171.25,23.0000038" LocationFloat="10.4166718,46" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="31" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="32" ControlType="XRLabel" Name="label7" Multiline="true" Text="J3E 1Z4&#xD;" TextAlignment="TopLeft" SizeF="87.49998,23" LocationFloat="10.4166718,69" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="33" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="34" ControlType="XRLabel" Name="label8" Multiline="true" Text="Tél: (450) 649-8886&#xD;" SizeF="138.541656,23.0000076" LocationFloat="10.4166718,106.625" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="35" UseFont="false" />
+        </Item8>
+        <Item9 Ref="36" ControlType="XRLabel" Name="label9" Multiline="true" Text="Fax: (450) 649-2357" SizeF="138.541656,23.0000076" LocationFloat="186.458344,106.625" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="37" UseFont="false" />
+        </Item9>
+        <Item10 Ref="38" ControlType="XRLabel" Name="label10" Multiline="true" Text="Numéro/Number" SizeF="159.791626,23.0000038" LocationFloat="580.2083,22.9999924" Font="Arial, 11pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="39" UseFont="false" />
+        </Item10>
+        <Item11 Ref="40" ControlType="XRLabel" Name="label11" Multiline="true" Text="DM122624" TextAlignment="TopCenter" SizeF="206.25,45.99999" LocationFloat="533.749939,46" EvenStyleName="Style1" Font="Arial, 11pt, style=Bold" Padding="8,8,8,8,100" Borders="All" BorderWidth="4">
+          <StylePriority Ref="41" UseFont="false" UsePadding="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="42" ControlType="XRLabel" Name="label12" Multiline="true" Text="2600 EAST 107TH STREET&#xD;" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="10.4166718,243" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="43" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="44" ControlType="XRLabel" Name="label13" Multiline="true" Text="WOODBRIDGE(ILLINOIS)&#xD;" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="10.4166718,266" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="45" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="46" ControlType="XRLabel" Name="label14" Multiline="true" Text="60440" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="10.4166718,289" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="47" UseFont="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="48" ControlType="XRLabel" Name="label15" Multiline="true" Text="DERMOLAB PHARMA" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="433.333344,220" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="49" UseFont="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="50" ControlType="XRLabel" Name="label19" Multiline="true" Text="Expédié à/Shipped to:&#xD;" TextAlignment="TopLeft" SizeF="175.625,23.0000038" LocationFloat="433.333344,197" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Transparent">
+          <StylePriority Ref="51" UseFont="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="52" ControlType="XRLabel" Name="label20" Multiline="true" Text="Dennis Assleborn:" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="10.4166718,335" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="53" UseFont="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="54" ControlType="XRLabel" Name="label21" Multiline="true" Text="Porte # 3 / Door # 3&#xD;" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="418.958374,335" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="55" UseFont="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="56" ControlType="XRLabel" Name="label24" Multiline="true" Text="J3E 1Z4&#xD;" TextAlignment="TopLeft" SizeF="87.49998,23" LocationFloat="437.708374,289" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="57" UseFont="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="58" ControlType="XRLabel" Name="label23" Multiline="true" Text="Ste-Julie(QUEBEC, CANADA)&#xD;" TextAlignment="TopLeft" SizeF="171.25,23.0000038" LocationFloat="437.708374,266" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="59" UseFont="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="60" ControlType="XRLabel" Name="label22" Multiline="true" Text="1421, rue Nobel" TextAlignment="TopLeft" SizeF="112.500015,22.9999962" LocationFloat="437.708374,243" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="61" UseFont="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="62" ControlType="XRLabel" Name="label16" Multiline="true" Text="Tel: " TextAlignment="TopJustify" SizeF="40.2083244,23" LocationFloat="10.4200048,370" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Transparent">
+          <StylePriority Ref="63" UseFont="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="64" ControlType="XRLabel" Name="label17" Multiline="true" Text="(630) 628-2255" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="55.41667,370" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="65" UseFont="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="66" ControlType="XRLabel" Name="label25" Multiline="true" Text="(630) 628-8025&#xD;" TextAlignment="TopLeft" SizeF="161.25,23" LocationFloat="325,370" Font="Arial, 8pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="67" UseFont="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="68" ControlType="XRLabel" Name="label18" Multiline="true" Text="Fax:" TextAlignment="TopJustify" SizeF="40.2083244,23" LocationFloat="280.003326,370" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Transparent">
+          <StylePriority Ref="69" UseFont="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item25>
+      </Controls>
+    </Item4>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="70" Name="Style1" BorderStyle="Inset" Padding="0,0,0,0,100" StringFormat="Near;Near;0;None;Character;GenericDefault" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v24.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9ImxvY2FsaG9zdF9Ob3J0aFdpbmRfQ29ubmVjdGlvbiIgUHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj48UGFyYW1ldGVycz48UGFyYW1ldGVyIE5hbWU9InNlcnZlciIgVmFsdWU9IkxFTk9WTy1NQVJJQU1cU1FMRVhQUkVTUyIgLz48UGFyYW1ldGVyIE5hbWU9ImRhdGFiYXNlIiBWYWx1ZT0iTm9ydGhXaW5kIiAvPjxQYXJhbWV0ZXIgTmFtZT0idXNlSW50ZWdyYXRlZFNlY3VyaXR5IiBWYWx1ZT0iVHJ1ZSIgLz48UGFyYW1ldGVyIE5hbWU9InJlYWQgb25seSIgVmFsdWU9IjEiIC8+PFBhcmFtZXRlciBOYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIFZhbHVlPSJmYWxzZSIgLz48UGFyYW1ldGVyIE5hbWU9InVzZXJpZCIgVmFsdWU9IiIgLz48UGFyYW1ldGVyIE5hbWU9InBhc3N3b3JkIiBWYWx1ZT0iIiAvPjwvUGFyYW1ldGVycz48L0Nvbm5lY3Rpb24+PFF1ZXJ5IFR5cGU9IlNlbGVjdFF1ZXJ5IiBOYW1lPSJDdXN0b21lcnMiPjxUYWJsZXM+PFRhYmxlIE5hbWU9IkN1c3RvbWVycyIgLz48L1RhYmxlcz48Q29sdW1ucz48Q29sdW1uIFRhYmxlPSJDdXN0b21lcnMiIE5hbWU9IkN1c3RvbWVySUQiIC8+PENvbHVtbiBUYWJsZT0iQ3VzdG9tZXJzIiBOYW1lPSJDb21wYW55TmFtZSIgLz48Q29sdW1uIFRhYmxlPSJDdXN0b21lcnMiIE5hbWU9IkNvbnRhY3ROYW1lIiAvPjxDb2x1bW4gVGFibGU9IkN1c3RvbWVycyIgTmFtZT0iQWRkcmVzcyIgLz48Q29sdW1uIFRhYmxlPSJDdXN0b21lcnMiIE5hbWU9IkNpdHkiIC8+PC9Db2x1bW5zPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iQ3VzdG9tZXJzIj48RmllbGQgTmFtZT0iQ3VzdG9tZXJJRCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb21wYW55TmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDb250YWN0TmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBZGRyZXNzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNpdHkiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
